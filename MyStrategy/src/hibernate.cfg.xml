@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">zhouli123456</property>
+        <property name="hibernate.connection.url">jdbc:mysql://121.40.177.191:3306/stock</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <mapping class="com.jf.stock.model.Ztfx" />
+        <mapping class="com.jf.stock.model.Tdz" />
+        <mapping class="com.jf.stock.model.Result" />
+        <mapping class="com.jf.stock.model.St32" />
+        <mapping class="com.jf.stock.model.Dayline2" />
+        <mapping class="com.jf.stock.model.Code" />
+        <mapping class="com.jf.stock.model.Ztdk" />
+        <mapping class="com.jf.stock.model.St22041Main" />
+        <mapping class="com.jf.stock.model.Macd" />
+        <mapping class="com.jf.stock.model.Jsj" />
+        <mapping class="com.jf.stock.model.Klyh" />
+        <mapping class="com.jf.stock.model.Dayline" />
+        <mapping class="com.jf.stock.model.Plst" />
+        <mapping class="com.jf.stock.model.Yycdx" />
+        <mapping class="com.jf.stock.model.Qlcy" />
+        <mapping class="com.jf.stock.model.Userinfo" />
+        <mapping class="com.jf.stock.model.Macdjc" />
+    </session-factory>
+</hibernate-configuration>

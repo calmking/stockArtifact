@@ -1,0 +1,11 @@
+<nmq>
+	<channel>
+		<product>fb</product>
+		<topic>hda</topic>
+		<proxyBns></proxyBns>
+		<proxyHost>10.92.103.51</proxyHost>
+		<port>8051</port>
+	</channel>
+	<retryTimes>3</retryTimes>
+	<proxyTimeout>3000</proxyTimeout>
+</nmq>
